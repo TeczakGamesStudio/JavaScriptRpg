@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+		<title>Clicker 2022</title>
+	</haed>
+	<body onload="Start()">
+		<h1 style="text-align: center; font-size:35px">Be the KING!</h1>
+		<div id="MainMenu">
+			<div id="Zdj"><img id="zdj" src="Rabbit.jpg" alt=""></div>
+			<p id="Zdrowie">Zdrowie: 100</p>
+			<input type="button" value="Attack" id="AttackBtn" onclick='Attack()'>
+		</div>
+		<div id="Stats">
+			<h1>Statystyki</h1>
+			<p id="PlayerName">NUll</p>
+			<p id="Money">Pieniądze: 0$</p>
+			<p id="AttackDamage">Siła Ataku: 1</p>
+			<p id="Level">Lvl: 1</p>
+			<p id="Exp">Exp: 0/100</p>
+		</div>
+		<br>
+		<div id="Shop">
+			<h1>SKLEP</h1>
+			<!-- 
+				Miecz 1 
+			--><br>
+			<div class="Sword">
+				<p id="MT1">Miecz tier 1 <br> Siła Ataku: 5<br>wymaga:1 lvl <br> cena: 100$</p><br>
+				<input type="button" id="BMT1" value="Kup!" onclick="BuyMT1()">
+			</div><br>
+			<!-- 
+				Miecz 2
+			 -->
+			 <div class="Sword">
+				<p id="MT2">Miecz tier 2 <br> Siła Ataku: 10<br>wymaga:2 lvl <br> cena: 500$</p><br>
+				<input type="button" id="BMT2" value="Kup!" onclick="BuyMT2()">
+			</div><br>
+			<!-- 
+				Miecz 3
+			 -->
+			 <div class="Sword">
+				<p id="MT3">Miecz tier 3 <br> Siła Ataku: 15<br>wymaga:4 lvl <br> cena: 1000$</p><br>
+				<input type="button" id="BMT3" value="Kup!" onclick="BuyMT3()">
+			</div><br>
+			<!-- 
+				Miecz 4
+			 -->
+			 <div class="Sword">
+				<p id="MT4">Miecz tier 4 <br> Siła Ataku: 20<br>wymaga:6 lvl <br> cena: 5000$</p><br>
+				<input type="button" id="BMT4" value="Kup!" onclick="BuyMT4()">
+			</div><br>
+			<!-- 
+				Miecz 5
+			 -->
+			 <div class="Sword">
+				<p id="MT5">Miecz tier 5 <br> Siła Ataku: 50<br>wymaga:6 lvl <br> cena: 15000$</p><br>
+				<input type="button" id="BMT5" value="Kup!" onclick="BuyMT5()">
+			</div><br>
+			<!-- 
+				Miecz 6
+			 -->
+			 <div class="Sword">
+				<p id="MT6">Miecz tier 6 <br> Siła Ataku: 100<br>wymaga:7 lvl <br> cena: 20000$</p><br>
+				<input type="button" id="BMT6" value="Kup!" onclick="BuyMT6()">
+			</div><br>
+			<!-- 
+				Miecz 7
+			 -->
+			 <div class="Sword">
+				<p id="MT7">Miecz tier 7 <br> Siła Ataku: 150<br>wymaga:7 lvl <br> cena: 25000$</p><br>
+				<input type="button" id="BMT7" value="Kup!" onclick="BuyMT7()">
+			</div><br>
+			<!-- 
+				Miecz 8
+			 -->
+			 <div class="Sword">
+				<p id="MT8">Miecz tier 8 <br> Siła Ataku: 200<br>wymaga:9 lvl <br> cena: 50000$</p><br>
+				<input type="button" id="BMT8" value="Kup!" onclick="BuyMT8()">
+			</div><br>
+			<!-- 
+				Miecz 9
+			 -->
+			 <div class="Sword">
+				<p id="MT9">Miecz tier 9 <br> Siła Ataku: 500<br>wymaga:10 lvl <br> cena: 100000$</p><br>
+				<input type="button" id="BMT9" value="Kup!" onclick="BuyMT9()">
+			</div><br>
+			<!-- 
+				Miecz 10
+			 -->
+			 <div class="Sword">
+				<p id="MT10">Miecz tier 10 <br> Siła Ataku: 1000<br>wymaga:12 lvl <br> cena: 150000$</p><br>
+				<input type="button" id="BMT10" value="Kup!" onclick="BuyMT10()">
+			</div><br>
+		</div>
+		
+	</body>
+</html>

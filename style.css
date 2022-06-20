@@ -1,0 +1,65 @@
+body{
+	background-color:blue;
+}
+*{
+	color: white;
+	font-size: 25px;
+	margin-left: 10px;
+}
+img{
+	width: 30%;
+}
+#Hp{
+	font-size: 30px;
+}
+#AttackBtn{
+	background-color: rgb(19, 19, 119);
+	color: white;
+	font-size: 50px;
+	border:none;
+	width: 200px;
+	height: 100px;
+}
+#MainMenu{
+	width: 75%;
+	float: left;
+}
+#Stats{
+	float: right;
+	margin-left: 80vw;
+	background-color: rgb(9, 9, 52);
+	width: fit-content;
+	padding: 10px;
+	position: fixed;
+}
+#Shop{
+	float: left;
+	clear: both;
+}
+.Sword{
+	background-color: rgb(7, 81, 81);
+	width: fit-content;
+	padding: 3px;
+	display: flex;
+	justify-content: center;
+}
+#BMT1,#BMT2,#BMT3,#BMT4,#BMT5,#BMT6,#BMT7,#BMT8,#BMT9,#BMT10{
+	margin-left: 13px;
+	border: none;
+	font-size: 25px;
+	background-color: rgb(19, 19, 110);
+}
+
+
+@media(max-width:800px){
+	#MainMenu{
+		width: 100%;
+	}
+	#Stats{
+		clear: both;
+		width: 100%;
+	}
+	#Shop{
+		width: 100%;
+	}
+}
