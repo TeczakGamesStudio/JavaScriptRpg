@@ -4,20 +4,28 @@
 		<meta charset='utf-8'>
 		<link rel="stylesheet" href="style.css">
 		<script src="script.js"></script>
-		<title>Clicker 2022</title>
+		<title>Be the King</title>
 	</haed>
 	<body onload="Start()">
 		<h1 style="text-align: center; font-size:35px">Be the KING!</h1>
 		<div id="MainMenu">
-			<div id="Zdj"><img id="zdj" src="Rabbit.jpg" alt=""></div>
-			<p id="Zdrowie">Zdrowie: 100</p>
+			<div id="Zdj">
+				<p id="Enemylevel">Poziom(trudność): 1</p>
+				<p id="Zdrowie">Zdrowie: 100</p>
+				<img id="zdj" src="Rabbit.jpg" alt="">
+			</div>
+			<div id="Bioms">
+				<input type="button" id="Grass" value="łąka: tu jesteś" onclick="laka()">
+				<input type="button" id="Hill" value="góry(wymaga 5 lvl)" onclick="gora()">
+				<input type="button" id="Dust" value="pustynia(wymaga 10 lvl)" onclick="pustynia()">
+			</div>
 			<input type="button" value="Attack" id="AttackBtn" onclick='Attack()'>
 		</div>
 		<div id="Stats">
 			<h1>Statystyki</h1>
-			<p id="PlayerName">NUll</p>
+			<p id="PlayerName">Imię: Player</p>
 			<p id="Money">Pieniądze: 0$</p>
-			<p id="AttackDamage">Siła Ataku: 1</p>
+			<p id="AttackDamage">Siła Ataku: 2</p>
 			<p id="Level">Lvl: 1</p>
 			<p id="Exp">Exp: 0/100</p>
 		</div>

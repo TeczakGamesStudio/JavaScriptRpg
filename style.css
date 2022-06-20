@@ -24,6 +24,31 @@ img{
 	width: 75%;
 	float: left;
 }
+#Grass{
+	background-color: rgb(6, 233, 6);
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#Hill{
+	background-color: rgb(71, 70, 70);
+}
+#Dust{
+	background-color: rgb(143, 143, 26);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#Grass,#Hill,#Dust{
+	border:none;
+	padding: 5px;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 10px;
+	
+}
+#Enemylevel,#Zdrowie{
+	margin-top: 0;
+	margin-bottom: 0;
+}
 #Stats{
 	float: right;
 	margin-left: 80vw;
